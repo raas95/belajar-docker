@@ -1,6 +1,6 @@
 version: "3.7"
 
-  services-belajar-docker:
+services-belajar-docker:
     image: nginx
     volumes:
     - ./templates:/etc/nginx/templates
