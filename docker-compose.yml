@@ -3,7 +3,7 @@ services:
   belajar-docker:
     image: nginx
     volumes:
-    - ./page:/etc/nginx/templates
+    - ./page:/usr/share/nginx/html
     ports:
     - "3333:80"
     environment:
