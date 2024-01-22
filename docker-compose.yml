@@ -6,7 +6,7 @@ services:
     - .:/usr/share/nginx/html:ro
     # - ./nginx.conf:/etc/nginx/conf.d/tes.conf:ro
     ports:
-    - "5555:80"
+    - "80:80"
     environment:
     - VIRTUAL_HOST=spotlution.localhost
     - NGINX_PORT=80
