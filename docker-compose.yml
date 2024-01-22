@@ -5,7 +5,7 @@ services:
     volumes:
     - ./page:/etc/nginx/templates
     ports:
-    - "8080:80"
+    - "1234:80"
     environment:
     - NGINX_HOST=foobar.localhost
     - NGINX_PORT=80
