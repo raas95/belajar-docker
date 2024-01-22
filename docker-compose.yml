@@ -4,9 +4,9 @@ services:
     image: nginx
     volumes:
     - .:/usr/share/nginx/html:ro
-    # - ./nginx.conf:/etc/nginx/conf.d/tes.conf:ro
+    - ./nginx.conf:/etc/nginx/conf.d/tes.conf:ro
     ports:
-    - "4444:1234"
+    - "4444:80"
     environment:
     - VIRTUAL_HOST=example.localhost
-    - NGINX_PORT=4444
+    - NGINX_PORT=80
